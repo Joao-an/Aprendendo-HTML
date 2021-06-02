@@ -40,3 +40,24 @@ figure.foto-com-legenda:hover figcaption{
     opacity: 1;                                     /* Define a opacidade quando passar o mouse */
 }
 
+/* Formatação do menu */
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 640px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(187, 180, 180);
+    padding: 10px;
+    margin: 2px;
+    
+}
+nav#menu h1{
+    display: none;
+}
